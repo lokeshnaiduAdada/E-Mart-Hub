@@ -60,15 +60,19 @@
 }
 @media only screen and (max-width:600px) {
     .title{
-        margin: 10px;
+        margin: 5px;
     }
     .title > h1 {
         font-weight: 800;
-        font-size: 22px;
+        font-size: 17px;
     }
     .search{
         width: 30%;
         margin-left: 0px;
+    }
+    .search >input{
+        height: 35px;
+        width: 120px;
     }
     .user{
         width: 30%;
