@@ -16,7 +16,7 @@
 }
 .fridgepage_image{
     width: 85%;
-    padding: 8px;
+    padding: 10px;
 }
 .fridgepage_image > img{
     transition: all 0.3s ease-in-out;

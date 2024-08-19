@@ -21,7 +21,7 @@ const WomenWearProduct = () => {
         <Navbar></Navbar>
         <div className="singleproduct_section">
             <div className="singleproduct_image">
-                <img src={womenwerproduct.image} style={{width:'40%', textAlign:'center'}}></img>
+                <img src={womenwerproduct.image} ></img>
             </div>
             <div className="singleproduct_details">
                 <div className='singleproduct_brand'>

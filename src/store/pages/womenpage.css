@@ -12,10 +12,11 @@
 }
 .womenwear_image{
     width: 100%;
+
 }
 .womenwear_image > img{
     transition: all 0.3s ease-in-out;
-    padding-bottom: 8px;
+    padding-bottom: 15px;
     width: 85%;
 }
 .womenwear_image > img:hover{

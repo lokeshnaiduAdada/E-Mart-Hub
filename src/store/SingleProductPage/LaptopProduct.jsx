@@ -21,11 +21,11 @@ const LaptopProduct = () => {
   return (
     <>
         <Navbar></Navbar>
-        <div className="singleproduct_section">
-            <div className="singleproduct_image">
+        <div className='singleproduct_section'>
+            <div className='singleproduct_image'>
                 <img src={laptopproduct.image}></img>
             </div>
-            <div className="singleproduct_details">
+            <div className='singleproduct_details'>
                 <div className='singleproduct_brand'>
                     <p><strong style={{color:'red'}}>Product Name:</strong> {laptopproduct.product}</p>
                 </div>

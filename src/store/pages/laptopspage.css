@@ -15,9 +15,14 @@
 }
 .laptopspage_image {
     width: 100%;
+    padding: 15px;
 }
 .laptopspage_image > img{
     width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.laptopspage_image > img:hover{
+    transform: scale(1.1);
 }
 @media only screen and (max-width:1250px) {
     .laptopspage_section{
