@@ -1,0 +1,20 @@
+.furniture_title{
+    color: red;
+    padding-left: 10px;
+    padding-top: 20PX;
+    font-size: 30px;
+    font-weight: 800;
+}
+.furniture_section{
+    display:inline-flex;
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px rgb(247, 203, 203);
+}
+.furniture_item{
+    width: 100%;
+   padding-left: 5px;
+   padding-top: 10px;
+}
+.furniture_image{
+    width: 90%;
+}

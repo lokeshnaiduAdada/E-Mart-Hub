@@ -1,0 +1,81 @@
+.signIn_popup{
+    position:absolute;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    backdrop-filter: blur(100px);
+    /* filter: blur(6px); */
+    width:450px;
+    height:400px;
+    margin-top: -15em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    /* border: 1px solid #ea0a0a; */
+    background-color: #460190;
+}
+.signin_popup_form{
+    padding: 20px;
+    width:450px;
+    height:400px;
+}
+.signin_from_title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.signin_from_title > h1{
+    width: 90%;
+    text-align: center;
+    color: rgb(218, 199, 55);
+}
+.signin_from_title > button{
+    width: 9%;
+    height:32px;
+    color: red;
+    font-size: 25px;
+    background-color: #460190;
+    z-index: 1;
+}
+.signin_from_title > button:hover{
+    background-color: yellow;
+}
+.form{
+    height: 320px;
+}
+.form > div{
+    padding: 15px;
+}
+.signin_popup_form > form > div > label{
+    padding: 10px;
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+}
+.signin_popup_form > form > div > input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+}
+.signin_frogetpassword{
+    text-align: right;
+}
+.signin_frogetpassword > a{
+    text-decoration: none;
+    color: red;
+}
+.signin_button {
+    display: flex;
+    gap: 1.5rem;
+    justify-content:space-evenly;
+}
+.signin_button > div > button{
+    width: 80px;
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: silver;
+    height: 40px;
+}
+.signin_button > div > button:hover{
+    background-color: orangered;
+}

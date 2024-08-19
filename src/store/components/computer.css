@@ -1,0 +1,19 @@
+.computer_heading{
+    padding-top: 20px;
+    color: red;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.computer_section{
+    display: inline-flex;
+}
+.img_section{
+    width:80%;
+    box-shadow: 5px 5px 5px rgb(235, 238, 232);
+}
+.computer_img{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}

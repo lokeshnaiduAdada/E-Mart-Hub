@@ -1,0 +1,17 @@
+.kitchen_title{
+    color: red;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.kitchen_section{
+    display: inline-flex;
+    box-shadow: 5px 5px 5px rgba(1, 10, 76, 0.214);
+}
+.kitchen_item{
+    width: 100%;
+}
+.kitchen_image{
+    width: 80%;
+}

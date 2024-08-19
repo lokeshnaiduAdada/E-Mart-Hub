@@ -1,0 +1,122 @@
+.singleproduct_section{
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    justify-content: center;
+}
+.singleproduct_image{
+    text-align: right;
+    width: 40%;
+}
+.singleproduct_image > img{
+    padding: 10px;
+    border-radius: 20px;
+    position: static;
+    width: 50%;
+}
+
+.singleproduct_details{
+    width: 50%;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.singleproduct_details > div > p{
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 18px;
+    color: navy;
+    font-weight: 500;
+    width: 70%;
+}
+.singleproduct_addcart{
+    padding-top: 20px;
+}
+.singleproduct_addcart > button{
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align: center;
+}
+.cartproduct_section{
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.cartproduct_image{
+    border-radius: 6px;
+    width: 50%;
+}
+.cartproduct_image > img{
+    width: 350px;
+}
+.cartproduct_details{
+    width: 100%;
+    padding: 2rem;
+}
+.cartproduct_details >div > p{
+    text-align: left;
+    width: 80%;
+    padding: 6px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.cartproduct_buttons{
+    display: flex;
+}
+.cartproduct_buy{
+    width:30%;
+    padding: 10px;
+}
+.cartproduct_buy > button{
+    width: 100px;
+    height: 30px;  
+    border-radius: 6px;
+    font-weight: 500;
+    background-color: orange;
+    color: black;
+}
+.cartproduct_remove{
+    width: 30%;
+    padding: 10px;
+}
+.cartproduct_remove > button{
+    width: 100px;
+    height: 30px;  
+    border-radius: 6px;
+    font-weight: 500;
+    background-color: orange;
+    color: black;
+}
+.cartproduct_quantity > p > button{
+    width: 20px;
+    background-color: rgb(252, 46, 46);
+    font-weight: 500;
+}
+
+@media only screen and (max-width:600px) {
+    .cartproduct_section{
+        display: grid;
+        align-items: center;
+    }
+    .cartproduct_image{
+        width: 100%;
+    }
+    .cartproduct_image > img{
+        width: 250px;
+    }
+    .cartproduct_details{
+        padding: 10px;
+        align-items: center;
+    }
+    .cartproduct_details > div >p{
+        width: 100%;
+    }
+    .cartproduct_buttons{
+        justify-content: space-around;
+    }
+    
+}

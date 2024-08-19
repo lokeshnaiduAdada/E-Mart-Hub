@@ -1,0 +1,42 @@
+.product_section{
+    display: flex;
+    width: 100%;
+}
+.selectedcomponent{
+    width:15%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.selectedcomponent > label {
+    position: fixed;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 12%;
+    height: 130px;
+    text-align: center;
+}
+.selectedcomponent > label > h3{
+    text-align: center;
+    margin: 10px;
+}
+.showcomponents_checkbox{
+    width: 100%;
+}
+@media only screen and (max-width:800px) {
+    .selectedcomponent{
+        width: 25%;
+    }
+    .selectedcomponent > label {
+        width: 18%;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:550px) {
+    .selectedcomponent{
+        width: 25%;
+    }
+    .selectedcomponent > label {
+        width: 18%;
+        font-size: 13px;
+    }
+}

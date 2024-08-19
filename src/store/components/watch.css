@@ -1,0 +1,17 @@
+.watch_title{
+    color: red;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.watch_section{
+    display: inline-flex;
+    box-shadow: 5px 5px 15px rgba(154, 15, 126, 0.378);
+}
+.watch_items{
+    width: 100%;
+}
+.watch_image{
+    width: 80%;
+}

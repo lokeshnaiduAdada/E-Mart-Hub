@@ -1,0 +1,18 @@
+.mobile_title{
+    padding-top: 20px;
+    color: red;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.mobile_section{
+    display: inline-flex
+}
+.image_section{
+    box-shadow: 5px 5px 5px rgb(235, 238, 232);
+    width: 80%;
+}
+.mobile_item{
+    width: 100%;
+    padding-left: 0px;
+}

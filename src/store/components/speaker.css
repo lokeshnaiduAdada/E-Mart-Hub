@@ -1,0 +1,17 @@
+.speaker_title{
+    color: red;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.speaker_section{
+    display: inline-flex;
+    box-shadow: 5px 5px 15px rgba(193, 80, 174, 0.373);
+}
+.speaker_items{
+    width: 100%;
+}
+.speaker_image{
+    width: 80%;
+}

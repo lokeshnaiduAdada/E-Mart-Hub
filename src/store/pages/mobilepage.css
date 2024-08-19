@@ -1,0 +1,70 @@
+.mobilepage_section{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4,300px);
+}
+.mobilepage_details{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.mobilepage_details > div > p{
+    font-size: 18px;
+    font-weight: 600;
+    color: red;
+}
+.mobilepage_image{
+    width: 100%;
+}
+.mobilepage_image > img{
+    width: 80%;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.mobilepage_image > img:hover{
+    transform: scale(1.1);
+}
+@media only screen and (max-width:1250px) {
+    .mobilepage_section{
+        display: grid;
+        width: 100%;
+        justify-content: space-around;
+        grid-template-columns: repeat(3,300px);
+    }
+    .mobilepage_details > div > p{
+        font-size: 16px;
+    }
+    .mobilepage_details{
+        width: 90%;
+    }
+    
+}
+@media only screen and (max-width:920px) {
+    .mobilepage_section{
+        width: 100%;
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(2,220px);
+    }
+    .mobilepage_details{
+        width: 100%;
+    }
+    .mobilepage_details > div > p{
+        font-size: 16px;
+    }
+    .mobilepage_image > img{
+        width: 220px;
+    }
+    
+}
+@media only screen and (max-width:600px) {
+    .mobilepage_section{
+        width: 100%;
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(1,220px);
+    }
+    .mobilepage_image > img{
+        width: 240px;
+    }
+}

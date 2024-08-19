@@ -1,0 +1,58 @@
+.womenpage_section{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: repeat(4,300px);
+}
+.womenWear_details> div > p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(231, 13, 13);
+    text-align: center;
+}
+.womenwear_image{
+    width: 100%;
+}
+.womenwear_image > img{
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 8px;
+    width: 85%;
+}
+.womenwear_image > img:hover{
+    transform: scale(1.1);
+    overflow-y: scroll;
+}
+@media only screen and (max-width:1250px) {
+    .womenpage_section{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        grid-template-columns: repeat(3,300px);
+    }
+    .womenWear_details{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:920px) {
+    .womenpage_section{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        grid-template-columns: repeat(2,300px);
+    }
+    .womenWear_details{
+        width: 90%;
+    }
+    
+}
+@media only screen and (max-width:600px) {
+    .womenpage_section{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        grid-template-columns: repeat(1,340px);
+    }
+    .womenwear_image > img{
+        width: 280px;
+    }
+}
