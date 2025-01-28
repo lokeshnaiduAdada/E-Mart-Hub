@@ -1,8 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './navbar.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { UserContext } from '../context/UserContext'
 const Navbar = ({dataToParent}) => {
+
+  const [search,setSearch] = useState("");
+  const [searchItem,setSearchItem]=useState("");
+  const navigate = useNavigate();
 
   const {cartitems} = useContext(UserContext);
 
@@ -14,6 +18,46 @@ const Navbar = ({dataToParent}) => {
     dataToParent(newPopupState);
   }
 
+  const searchHandle = (e) => {
+    const value = e.target.value;
+    setSearch(value);
+
+    //const normalizedValue = value.trim().toLowerCase()
+    if (value.trim().toLowerCase() === "laptops") {
+      navigate("/laptops");
+    }
+    else if (value.trim().toLowerCase() === "womens wear") {
+      navigate("/womenwear");
+    }
+    else if (value.trim().toLowerCase() === "watches") {
+      navigate("/watches");
+    }
+    else if (value.trim().toLowerCase() === "mobiles") {
+      navigate("/mobiles");
+    }
+    else if (value.trim().toLowerCase() === "speakers") {
+      navigate("/speakers");
+    }
+    else if (value.trim().toLowerCase() === "mens wear") {
+      navigate("/menwears");
+    }
+    else if (value.trim().toLowerCase() === "kitchen") {
+      navigate("/kitchens");
+    }
+    else if (value.trim().toLowerCase() === "fridges") {
+      navigate("/fridges");
+    }
+    else if (value.trim().toLowerCase() === "furnitures") {
+      navigate("/furnitures");
+    }
+    else if (value.trim().toLowerCase() === "tvs") {
+      navigate("/tvs");
+    }
+    else if(value.trim().toLowerCase() === "acs") {
+      navigate("/acs");
+    }
+  }
+
   return (
     <>
       <div className="Navbar_section">
@@ -23,7 +67,12 @@ const Navbar = ({dataToParent}) => {
           </h1>
         </div>
         <div className="search">
-          <input type='search' placeholder='Search for Items'></input>
+          <form >
+            <input type='search' 
+                    placeholder='Search for Items'
+                    onChange={searchHandle}
+                    value={search}></input>
+          </form>
         </div>
         <div className="user">
           <button onClick={handlePopup}>
@@ -73,6 +122,7 @@ const Navbar = ({dataToParent}) => {
           </li>
         </ul>
       </div>
+      {/* <h1>{search}</h1> */}
     </>
   )
 }

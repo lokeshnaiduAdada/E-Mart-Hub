@@ -36,6 +36,7 @@ const MainPage = () => {
       dataFromChild && <SignIn dataFromSigninChildren={handleDataFromSigninChildren}/>
     }
     
+    
   </>
   )
 }

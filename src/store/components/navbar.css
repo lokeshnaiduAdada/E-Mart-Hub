@@ -19,7 +19,7 @@
     width: 30%;
     margin-left: 100px;
 }
-.search >input{
+.search > form >input{
     height: 45px;
     width: 300px;
     border-radius: 10px;

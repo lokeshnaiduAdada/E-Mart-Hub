@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { HiMiniXMark } from "react-icons/hi2";
-import './signin.css'
+import './signin.css';
 
 const SignIn = ({dataFromSigninChildren}) => {
 
